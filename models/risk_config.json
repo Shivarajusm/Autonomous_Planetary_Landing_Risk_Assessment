@@ -1,0 +1,21 @@
+{
+  "conf": 0.25,
+  "imgsz": 640,
+  "weights": {
+    "crater": 0.35,
+    "boulder": 0.15,
+    "shadow": 0.2,
+    "rough": 0.15,
+    "slope": 0.15
+  },
+  "lander_frac": 0.12,
+  "grid": 8,
+  "top_k": 5,
+  "cat_thresholds": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "go_score": 30,
+  "caution_score": 60
+}
